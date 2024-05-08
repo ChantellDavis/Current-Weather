@@ -34,5 +34,58 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.3);
     background-color: #67BFBA;
     color: azure;
     font-size: 15px;
+}
+
+.currentCity, .currentDate {
+text-align: center;
+}
+
+.currentCity {
+    margin-top: 55px;
+    margin-bottom: 0;
+    font-size: 44px;
+}
+
+.currentDate {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.conditionBox {
+    margin-left: 320px;
+    position: relative;
+    top: -140px;
+    font-size: 21px;
+    font-weight: 500;
+}
+.currentTemperature {
+position: relative;
+left: 190px;
+bottom: -80px;
+font-size: 45px;
+}
+
+.degrees {
+    font-size: 18px;
+    position: relative;
+    bottom: 18px;
+    left: -10px;
+}
+
+.icon {
+    font-size: 40px;
+    position: relative;
+    bottom: 15px;
+    left: 115px;
+}
+
+.humidityData, .windSpeedData, .currentCodition {
+    color:#02a69e ;
+}
+
+footer {
+    text-align: center;
+    margin-top: 45px
 
 }

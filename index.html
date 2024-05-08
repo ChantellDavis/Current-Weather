@@ -27,16 +27,20 @@
         <h2 class="currentDate" id="current-date">Monday 10:57</h2>
       </header>
       <main>
-        <h2 class="currentTemperature" id="current-temperature">72℉</h2>
+        <h2 class="currentTemperature" id="current-temperature">
+          72 <span class="degrees" id="degrees">℉</span>
+        </h2>
         <p class="icon" id="emoji-icon">🌤️</p>
-        <p class="currentCodition" id="current-condition">Cloudy</p>
-        <p class="humidityLabel" id="humidity-label">
-          humidity: <span class="humidityData" id="humidity-data">38%</span>
-        </p>
-        <p class="windSpeedLabel" id="wind-speed-label">
-          Wind speed:
-          <span class="windSpeedData" id="wind-speed-data">34 km/h</span>
-        </p>
+        <div class="conditionBox" id="condition-box">
+          <p class="currentCodition" id="current-condition">Cloudy</p>
+          <p class="humidityLabel" id="humidity-label">
+            humidity: <span class="humidityData" id="humidity-data">38%</span>
+          </p>
+          <p class="windSpeedLabel" id="wind-speed-label">
+            Wind speed:
+            <span class="windSpeedData" id="wind-speed-data">34 km/h</span>
+          </p>
+        </div>
       </main>
     </div>
 
